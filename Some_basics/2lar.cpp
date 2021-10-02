@@ -20,7 +20,7 @@ int main()
 
     }
     max=12;
-    for(i=0;i<n;i++)
+    for(i=0;i<n;i=i+1)
     {
         if(v[i]>max1 && v[i]!=max)
         {
