@@ -1,19 +1,10 @@
-// C++ program to find one of the repeating
-// elements in a read only array
-#include <bits/stdc++.h>
-using namespace std;
 
-// Function to find one of the repeating
-// elements
 int findRepeatingNumber(const int arr[], int n)
 {
 	// Size of blocks except the
 	// last block is sq
 	int sq = sqrt(n);
-
-	// Number of blocks to incorporate 1 to
-	// n values blocks are numbered from 0
-	// to range-1 (both included)
+int n,m,k,l=0
 	int range = (n / sq) + 1;
 
 	// Count array maintains the count for
