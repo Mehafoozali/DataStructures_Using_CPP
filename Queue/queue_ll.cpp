@@ -33,7 +33,7 @@ struct queue
         else{
             rear->next=temp;
             rear=temp;
-            size++;
+            size=size+1;
         }
     }
     void dequeue()
