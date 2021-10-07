@@ -6,7 +6,7 @@ int main()
     const int CHAR=256;
     int count[CHAR]={0};
     string s;
-    cout<<"Enter the string"<<endl;
+    cout<<"Enter the string: "<<endl;
     cin>>s;
     for(int i=0;i<s.length();i++)
     {
@@ -21,5 +21,5 @@ int main()
             return 0;
         }
     }
-    cout<<"No leftmost non repeating character";
+    cout<<"No leftmost non-repeating character";
 }
